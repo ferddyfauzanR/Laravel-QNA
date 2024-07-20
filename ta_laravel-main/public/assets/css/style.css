@@ -1,0 +1,36 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input:focus, button:focus, .btn:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.avatar{
+    width: 10em;
+    border-radius: 10px;
+}
+
+.fixed-plugin{
+    display: none !important;
+}
+
+.badge-cs{
+    border: none;
+    padding: 2px 10px;
+    font-size: x-small;
+    border-radius: 50px;
+}
+
+.badge-warning-cs{
+    background-color: #FFC107;
+}
